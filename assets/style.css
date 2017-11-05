@@ -1,0 +1,47 @@
+body{
+	font-family: verdana;
+}
+.contenido{
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	display: block;
+}
+#seccionInitial{
+	background-color: olive;
+	text-align: center;
+}
+#seccionInitial h1{
+	font-size: 3em;
+}
+#seccionInitial .descripcionEmpresa{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+#second{
+	font-size: 1em;
+}
+#second .contenedorTabs{
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	border-bottom: #fcd4 solid 1px;
+}
+.contenedorTabs li{
+	list-style: none;
+	display: inline-block;
+}
+.tab{
+	list-style: none;
+	background-color: teal;
+	color: white;
+	border-radius: 5%;
+	border-bottom: none;
+	padding: 10px;
+	width: 150px;
+}
+.divtexto {
+	position: absolute;
+	font-size: 1.3em;
+}
